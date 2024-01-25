@@ -1,0 +1,111 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;  
+}
+
+p{
+    font-family: Arial;
+    text-align: center;
+}
+
+.home-page{
+    background-color: black;
+    margin-left: 0;
+    
+
+}
+
+.home{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 16px 12px 16px;
+    cursor: pointer;
+}
+
+.home:hover{
+    background-color: rgb(186, 183, 183);
+    color: black;
+}
+
+.image{
+    width: 100%;
+    margin-top: 0.3px;
+}
+
+.the-band{
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-size: 30px;
+    
+}
+
+.music{
+   
+    font-style: italic;
+    color: gray;
+    line-height: 18px;
+   
+}
+
+.shit{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-left: 365px;
+    margin-right: 335px;
+    text-align: justify!important;
+}
+
+.three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:#f1f1f1;
+   
+}
+
+.photo{
+   
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    width: 95%;
+  
+}
+
+.flex{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    height: 60px;
+
+}
+.fa-square-facebook,
+.fa-pinterest-p,
+.fa-twitter,
+.fa-flickr,
+.fa-linkedin-in{
+    padding: 0.3%;
+    padding-top: 50px;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.me{
+    font-family: Verdana,sans-serif;
+    background-color: black;
+    color: white;
+    margin:0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+
+.color{
+    color: white;
+}
+
